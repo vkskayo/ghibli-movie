@@ -1,0 +1,15 @@
+#root {
+  margin: 0 auto;
+}
+
+.hover-effect:hover {
+  border: solid 2px rgb(196, 38, 38);
+  transform: scale(1.1);
+}
+
+.banner {
+  height: 400px;
+  object-fit: fill;
+  background-position-y: top;
+  opacity: 0.4;
+}
