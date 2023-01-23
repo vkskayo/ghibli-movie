@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: aliceblue;
+}
+
 .hover-effect:hover {
   border: solid 2px rgb(196, 38, 38);
   transform: scale(1.1);
@@ -12,4 +16,11 @@
   object-fit: fill;
   background-position-y: top;
   opacity: 0.4;
+}
+
+p,
+h1,
+h2,
+h3 {
+  font-family: Tahoma;
 }

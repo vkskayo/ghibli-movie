@@ -41,14 +41,14 @@ function FilmPage() {
           <div className="d-flex align-items-end">
             <div>
               <img style={imgSizeDesk} src={film.image} />
-              <h2 className="text-center">
+              <h2 className="text-center mt-2">
                 Rating: <span className="text-primary">{film.rt_score}</span>
               </h2>
             </div>
             <div className="d-flex flex-column align-items-start p-4 mb-4">
               <div className="d-flex gap-5">
-                <h2>{film.title}</h2>
-                <h3>{film.release_date}</h3>
+                <h2 className="fw-bolder">{film.title}</h2>
+                <h3 className="text-secondary">{film.release_date}</h3>
               </div>
 
               <p className="my-2 fs-4">{film.description}</p>
